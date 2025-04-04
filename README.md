@@ -1,6 +1,9 @@
 # Azure Blob Storage Cost Calculator
 
-A simple web application to calculate and visualize Azure Blob Storage costs over time for different usage scenarios.
+A simple React app to calculate Azure Blob Storage costs.
+
+## Live Demo
+Check out the live app at: https://serjoschduering.github.io/az_blob_storage_costs/
 
 ## Features
 
