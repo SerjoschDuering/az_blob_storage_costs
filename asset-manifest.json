@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/az_blob_storage_costs/static/css/main.6ba6150a.css",
+    "main.js": "/az_blob_storage_costs/static/js/main.7dd6c453.js",
+    "index.html": "/az_blob_storage_costs/index.html",
+    "main.6ba6150a.css.map": "/az_blob_storage_costs/static/css/main.6ba6150a.css.map",
+    "main.7dd6c453.js.map": "/az_blob_storage_costs/static/js/main.7dd6c453.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6ba6150a.css",
+    "static/js/main.7dd6c453.js"
+  ]
+}
