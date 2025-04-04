@@ -1,0 +1,109 @@
+.app-title {
+  color: #0078d4;
+}
+
+body, html {
+  height: 100%;
+  overflow-x: hidden;
+}
+
+/* Add constraint for app height */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.scenario-card {
+  margin-bottom: 1rem;
+  transition: all 0.2s ease-in-out;
+}
+
+.scenario-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.chart-container {
+  height: 100%;
+  position: relative;
+}
+
+.parameter-form-group {
+  margin-bottom: 1rem;
+}
+
+.active-scenario {
+  border-left: 4px solid #0078d4;
+}
+
+/* Styles for the scenario when being edited */
+.editing-scenario {
+  background-color: rgba(0, 120, 212, 0.05); /* Light Azure blue tint */
+}
+
+/* Make slider tooltips more visible */
+.MuiSlider-valueLabel {
+  background-color: #0078d4 !important; /* Azure blue */
+}
+
+/* Styles for cost assumptions dialog */
+.cost-assumptions-table th {
+  font-weight: bold;
+}
+
+/* Add proper spacing in the form containers */
+.scenario-edit-form {
+  padding: 16px;
+  border-top: 1px solid rgba(0, 0, 0, 0.12);
+  margin-top: 4px;
+}
+
+/* Tooltip styling */
+.info-tooltip {
+  cursor: help;
+  margin-left: 4px;
+  opacity: 0.7;
+}
+
+.info-tooltip:hover {
+  opacity: 1;
+}
+
+/* Styling for cost breakdown tabs */
+.cost-tabs .MuiTab-root {
+  min-width: 120px;
+  text-transform: none;
+}
+
+/* Ensure parameter form elements have appropriate spacing */
+.parameter-form-group {
+  margin-bottom: 1rem; /* Reduced margin slightly */
+}
+
+/* Optional: Style for the slider value text */
+.MuiSlider-valueLabel > span {
+  font-size: 0.8rem;
+}
+
+/* Smoother scrolling for lists */
+.MuiList-root {
+  scrollbar-width: thin;
+}
+
+.MuiList-root::-webkit-scrollbar {
+  width: 6px;
+}
+
+.MuiList-root::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 3px;
+}
+
+.MuiList-root::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 3px;
+}
+
+/* Add some padding inside the expanded edit form */
+/* This is now handled by Box padding in ScenarioList.js */ 
