@@ -7,7 +7,6 @@ import {
   Button,
   TextField,
   Typography,
-  Grid,
   Box,
   Tab,
   Tabs,
@@ -21,7 +20,6 @@ import {
   IconButton,
   Tooltip,
 } from '@mui/material';
-import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 import RestartAltIcon from '@mui/icons-material/RestartAlt';
 import { useScenariosContext } from '../contexts/ScenariosContext';
 import { DEFAULT_PRICING } from '../utils/costCalculator';

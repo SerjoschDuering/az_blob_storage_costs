@@ -59,7 +59,7 @@ const CostChart = () => {
     if (!activeScenario || !showCostBreakdown) {
         setShowCostBreakdown(false);
     }
-  }, [activeScenarioId, showCostBreakdown, activeScenario]);
+  }, [activeScenarioId, showCostBreakdown, activeScenario, scenarios]);
   
   const handleChartTypeChange = (_, newType) => {
     if (newType !== null) setChartType(newType);
